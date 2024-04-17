@@ -32,7 +32,7 @@ task_type = st.sidebar.selectbox(
 confidence = float(st.sidebar.slider(
     "Select Model Confidence", 30, 100, 50)) / 100
 
-model = YOLO(r'C:\Users\snehal\PycharmProjects\PoseEstimationTrainer\runs\pose\train\weights\best.pt')
+model = YOLO(r'best.pt')
 
 # image/video options
 st.sidebar.header("Image/Video Config")
