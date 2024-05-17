@@ -71,4 +71,4 @@ opencv-contrib-python-headless
 streamlit_webrtc
 tensorflow
 streamlit-server-state
-/dev/video0
+sudo chmod 666 /dev/video0
